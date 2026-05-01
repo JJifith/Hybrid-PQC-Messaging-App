@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'Inter', system-ui, sans-serif;
+    background: #0a0a0f;
+    color: #e2e8f0;
+    height: 100dvh;
+    overflow: hidden;
+  }
+  #root { height: 100dvh; display: flex; flex-direction: column; }
+
+  /* Scrollbars */
+  ::-webkit-scrollbar { width: 4px; height: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #334155; border-radius: 2px; }
+}
+
+@layer utilities {
+  .glass {
+    background: rgba(15, 23, 42, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  .scrollbar-thin { scrollbar-width: thin; scrollbar-color: #334155 transparent; }
+  .quantum-glow { box-shadow: 0 0 20px rgba(99, 102, 241, 0.15); }
+}

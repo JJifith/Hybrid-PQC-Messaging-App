@@ -1,0 +1,61 @@
+# =========================
+# .NET Backend
+# =========================
+bin/
+obj/
+_buildcheck/
+
+# App settings (secrets)
+appsettings.json
+appsettings.Development.json
+appsettings.Local.json
+
+# =========================
+# Frontend (Node/Vite)
+# =========================
+node_modules/
+dist/
+
+# =========================
+# Databases / runtime data
+# =========================
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# =========================
+# Uploads / user files
+# =========================
+QuantumChat/Backend/wwwroot/uploads/*
+!QuantumChat/Backend/wwwroot/uploads/.gitkeep
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+
+# =========================
+# IDE / system
+# =========================
+.vs/
+.vscode/
+*.user
+*.suo
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Misc
+# =========================
+*.cache

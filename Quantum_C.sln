@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QuantumChat", "QuantumChat", "{C17EBE1E-3AA5-A9CA-D310-569BDD0C27C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{57FFD8C1-468E-2E4A-A5ED-FFE0EEB4B8BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantumChatAPI", "QuantumChat\Backend\QuantumChatAPI.csproj", "{50A09CC6-A876-59E5-70E5-49F811BA02C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50A09CC6-A876-59E5-70E5-49F811BA02C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A09CC6-A876-59E5-70E5-49F811BA02C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A09CC6-A876-59E5-70E5-49F811BA02C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A09CC6-A876-59E5-70E5-49F811BA02C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57FFD8C1-468E-2E4A-A5ED-FFE0EEB4B8BE} = {C17EBE1E-3AA5-A9CA-D310-569BDD0C27C1}
+		{50A09CC6-A876-59E5-70E5-49F811BA02C9} = {57FFD8C1-468E-2E4A-A5ED-FFE0EEB4B8BE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89EAF80F-E396-4E70-A662-6ECCC710C16C}
+	EndGlobalSection
+EndGlobal
