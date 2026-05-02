@@ -59,12 +59,12 @@ Open two browser windows (or use incognito for the second):
 
 ## Cryptography Details
 
-### Key Exchange: Kyber-1024 (ML-KEM)
+### Key Exchange: Kyber-768 (ML-KEM)
 - **Standard**: NIST FIPS 203 (finalized 2024)
 - **Library**: BouncyCastle 2.4.0
 - **Security level**: 256-bit post-quantum (equivalent to AES-256)
-- **Public key size**: 1,568 bytes
-- **KEM ciphertext size**: 1,568 bytes
+- **Public key size**: 1,184 bytes
+- **KEM ciphertext size**: 1,088 bytes
 - **Shared secret size**: 32 bytes
 
 ### Symmetric Encryption: AES-256-GCM
